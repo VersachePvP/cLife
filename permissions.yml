@@ -1,0 +1,89 @@
+#-------------------------------
+#PLAYER COMMANDS                       #give meh credit by give players command.dev <3
+#-------------------------------
+#command.faction
+#command.lff
+#command.tl
+#command.teamspeak
+#command.help
+#command.discord
+#command.ores
+#command.stats
+#command.list
+#command.fight
+#command.message
+#command.reply
+#command.block
+#command.pvptimer
+#command.ping
+#command.mapkit
+#command.playtime
+#command.focus
+#command.cobble
+#command.gopple
+#command.lives
+#command.reclaim
+#command.economy
+#command.pay
+#command.playtimer
+#-------------------------------
+#DONATOR COMMANDS
+#-------------------------------
+#command.medic
+#command.playervault
+#command.hat
+#command.panic
+#command.rename
+#command.toprank
+#-------------------------------
+#STAFF COMMANDS
+#-------------------------------
+#command.staffmode
+#command.staffguide
+#command.random [random tp]
+#command.teleport
+#command.teleportall
+#command.teleporthere
+#command.mod
+#command.kill
+#command.top
+#command.vanish
+#command.lag
+#command.clear
+#command.spawner
+#command.whois
+#command.fly
+#command.gamemode
+#command.refund
+#command.freeze
+#-------------------------------
+#OP COMMANDS
+#-------------------------------
+#command.more
+#command.spawn
+#command.set [/set end , exit , spawn]
+#command.sudo
+#command.broadcast
+#command.rawcast [a broadcast without [alert] ]
+#command.clear
+#command.reset [Resets players stats ingame]
+#command.spawner
+#command.setkb
+#command.enchant
+#command.crowbar
+#command.endportal
+#command.fix
+#command.invsee
+#command.lockdown
+#command.keysale
+#command.timer
+#command.sotw
+#command.event
+#command.glowstone
+#-------------------------------
+#MISC COMMANDS
+#-------------------------------
+#command.drop [trolling command]
+#drop.yes [Allows the trolling command]
+#command.dev [give meh credit]
+

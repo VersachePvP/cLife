@@ -1,0 +1,189 @@
+#=========================================================#
+#                KitMap Mode configuration                #
+#=========================================================#
+
+Kitmap:
+  Sharpness: 1
+  Protection: 1
+kits-mode: false
+block-in-combat: true
+
+killstreaks:
+  broadcast-message: '&c&l%player% &ehas reached kill streak of &c&l%killstreak% &eand received &c&l%item%'
+  items:
+    DontRemoveThis:
+      name: 'DontRemove'
+      command: 'eco %player% give 10000'
+      kills: 1
+
+#=========================================================#
+#             	  Pvp Class configuration             	  #
+#=========================================================#
+  
+#=========================================================#
+#                Scoreboard configuration                 #
+#=========================================================#
+
+Scoreboard:
+  Title:
+   Name: "&6&lYour Stats"
+  Kills:
+   Name: "&aKills&6 \xbb &f%kills%"
+  Deaths:
+   Name: "&aDeaths&6 \xbb &f%deaths%"
+  Ping:
+   Name: "&aPing &f%ping% "   
+  Immunity: 
+   Name: "PvPProt"
+   Color: "&a&l"
+   Time: "30m"
+  Combat: 
+   Name: "PvPProt"
+   Color: "&4&l"
+   Time: "30m"
+  Frozen:
+   Name: "&4&lFrozen"   
+  Timers:
+   Color: "&8 \xbb &f"
+
+Scoreboard_name : '&3&lName &7%straight_line% &fMap 1' # Your server name [This will appear on the scoreboard]
+Primary_color: '&3' #Keep it 1 single color [No Bolds / italic / strikethrough / ect]
+Secondary_color: '&f' #Keep it 1 single color [No Bolds / italic / strikethrough / ect]
+Third_color: '&b'
+Rank_color: '&b'
+Koth_color: '&3'
+Tab:
+  Enabled: false
+
+#=========================================================#
+#            Server Information configuration             #
+#=========================================================#
+
+Chat:
+ WithFaction: "&8[&6%faction%&8]&e %prefix% %player% &6\xbb &7%msg%"
+ WithoutFaction: "[f] &e%prefix% %player% &6\xbb &7%msg%"
+ 
+general:
+  save:
+    start: "&2&lTEST &6» &aSaving all data... Expect some lag!"
+    finish: "&2&lTEST &6» &aSaved all data in &l%time% ms&a."
+    
+Help:
+- '&8&m------------------------------------'
+- '&4&lMap Infomation&7:'
+- '&7Current Map&8 - &fMap 1'
+- '&7Map Border&8 - &f3000'
+- '&7Map Kit&8 - &f/mapkit'
+- '&8&m------------------------------------'
+- '&4&lUseful Commands&7:'
+- '&7/coords - &fProvides the coordinates for KoTH Locations'
+- '&7/teamspeak - &fProvides the Teamspeak Server IP'
+- '&7/rules - &cCurrently Disabled &7(https://premade.com/forums/rules/)'
+- '&7/mapkit - &fProvides you with the Map Information on Enchant Limits and Potions'
+- '&7/report <Player> <Reason> - &fA command to report rule-breakers'
+- '&7/helpop <Message> - &fAlerts online Staff Members that you are in need of
+  assistance'
+- '&8&m------------------------------------'
+- '&4&lOther infomation&7:'
+- '&7Website&8 - &fwww.premade.com'
+- '&7Buycraft&8 - &fstore.premade.com'
+- '&7Teamspeak&8 - &fts.premade.com'
+- '&8&m------------------------------------'
+Teamspeak:
+- '&7Teamspeak: &fts.premade.com'
+teamspeak-frozen: ts.premade.com
+Coords:
+- '&8&m----------------------------------------'
+- '&6&lCoords'
+- '&eSpawn: &70,0 &7(Overworld)'
+- '&eNether Spawn: &70,0 &7(Nether)'
+- '&eEndPortals: &70,1500,0 &7(All for quads)'
+- '&8&m----------------------------------------'
+Login:
+- '&8&m----------------------------------------'
+- '&6&lJoin message is working!'
+- '&8&m----------------------------------------'
+Staffguide:
+- '&8&m----------------------------------------'
+- '&d&lStaff Guide&7:'
+- '&7�&d Ban Evader&7:'
+- '&7�&d Blacklist / IPBan'
+- '&8&m----------------------------------------'
+
+Discord:
+- '&7Discord: Discord.gg/example'
+discord-url: discord.gg/example
+
+#=========================================================#
+#                Server Configuration                     #
+#=========================================================#
+
+SERVER_NAME: Premade
+DONATE_URL: store.premade.com
+Top_Rank: Premade
+Tab_Header:
+- '&3&lPremade Network' 
+SPAWN_NO_BREAK_RADIUS: 150
+WARZONE_RADIUS: 150
+NETHER_WARZONE_RADIUS: 300
+MAX-FACTION: 25
+MAX-ALLY: 1
+WILDERNESS_COLOUR: GREEN
+WARZONE_COLOUR: RED
+SAFEZONE_COLOUR: AQUA
+TEAMMATE_COLOUR: GREEN
+FOCUS_COLOUR: LIGHT_PURPLE
+ALLY_COLOUR: BLUE
+ENEMY_COLOUR: RED
+ROAD_COLOUR: GOLD
+GLOWSTONE_COLOUR: GOLD
+COMBATLOG_DESPAWN_DELAY_TICKS: 300
+potionLimits:
+  STRENGTH: 0
+  INVISIBILITY: 1
+  REGEN: 0
+  WEAKNESS: 0
+  INSTANT_DAMAGE: 0
+  SLOWNESS: 1
+  POISON: 1
+potionsExtendedDisallowed:
+  POISON
+  SLOWNESS
+
+#=========================================================#
+#                Server Spawn Information                #
+#=========================================================#
+spawn:
+  world: world
+  x: 0.538049846829157
+  y: 69.0
+  z: 0.6617853658512408
+  yaw: 0.78689575
+  pitch: 11.715501
+  
+#��
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

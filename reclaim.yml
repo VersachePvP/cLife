@@ -1,0 +1,7 @@
+# %USER% %RANK%
+default:
+  rankname: 'default' 
+  commands:
+    - 'rawcast &3&lPREMADE &6� &d%USER% &7has redeemed their &2&oDefault&7 reclaim! You can purchase a rank at &d&ostore.premade.com'
+    - 'lives give %USER% 40'
+    - 'crate givekey %USER% Potato 10'
